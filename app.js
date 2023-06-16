@@ -111,7 +111,6 @@ function switchToNextPlayer() {
     roundScore = 0;
     document.getElementById('current-' + activePlayer).textContent = '0';
 
-
     // Тоглогчийн ээлжийг нөгөө тоглогч руу шилжүүлнэ
     activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
 
